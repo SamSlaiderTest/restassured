@@ -14,7 +14,7 @@ public class GithubRestUserAPISteps {
 
   @Step("Given the github REST API for user profile")
   public void withUserProfileAPIEndpoint() {
-    given().auth().basic("SamSlaiderTest", "tnk@1281");
+    given().auth().basic("SamSlaiderTest", "xxxx");
   }
 
   @Step("When looking for {0} via the api")
