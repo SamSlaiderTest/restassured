@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="GitHub" skipped="1" tests="2" time="9.26" timestamp="2018-07-18 09:23:38"><testcase name="Check user profile"><failure message="1 expectation failed.&#10;JSON path login doesn't match.&#10;Expected: is &quot;SamSlaiderTest&quot;&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
-JSON path login doesn't match.
-Expected: is "SamSlaiderTest"
-  Actual: null
-</failure><system-err>1 expectation failed.
-JSON path login doesn't match.
-Expected: is "SamSlaiderTest"
-  Actual: null
-
-io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
-io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
-io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
-io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
-steps.GithubRestUserAPISteps.profileShouldContainLoginValue(GithubRestUserAPISteps.java:28)
-co.com.qvision.restassured.definitions.GithubDefinition.githubSResponseContainsALoginSameUser(GithubDefinition.java:26)
-✽.github's response contains a login same SamSlaiderTest(src/test/resources/features/github.feature:8)
-</system-err></testcase><testcase name="Prueba"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="GitHub" skipped="0" tests="1" time="6.59" timestamp="2018-07-18 09:34:26"><testcase name="Check user profile"/></testsuite>

@@ -6,8 +6,3 @@ Feature: GitHub
     Given github user profile api
     When looking for SamSlaiderTest via the api
     Then github's response contains a login same SamSlaiderTest
-
-  Scenario: Prueba
-    Given prueba given
-    When prueba when
-    Then prueba then

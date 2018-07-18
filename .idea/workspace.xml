@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3e3baf-e2bd-42b0-9d24-6c483074283f" name="Default" comment="" />
+    <list default="true" id="ef3e3baf-e2bd-42b0-9d24-6c483074283f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/steps/GithubRestUserAPISteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/steps/GithubRestUserAPISteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/github.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/github.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/GithubRestUserAPISteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/GithubRestUserAPISteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/github.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/github.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-bf957329a6730e47f632d93406ba09f7652d781974b26b10a498e6dfef869ca7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-bf957329a6730e47f632d93406ba09f7652d781974b26b10a498e6dfef869ca7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bf957329a6730e47f632d93406ba09f7652d781974b26b10a498e6dfef869ca7.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bf957329a6730e47f632d93406ba09f7652d781974b26b10a498e6dfef869ca7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bf957329a6730e47f632d93406ba09f7652d781974b26b10a498e6dfef869ca7.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bf957329a6730e47f632d93406ba09f7652d781974b26b10a498e6dfef869ca7.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,8 +31,8 @@
       <file leaf-file-name="GithubRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/com/qvision/restassured/runners/GithubRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -31,7 +40,7 @@
       <file leaf-file-name="GithubDefinition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/com/qvision/restassured/definitions/GithubDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="244">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,12 +52,24 @@
       <file leaf-file-name="GithubRestUserAPISteps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/GithubRestUserAPISteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="187">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="github.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/github.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -70,6 +91,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -634,10 +658,10 @@
         <option value="$PROJECT_DIR$/src/test/java/runners/GithubRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/com/qvision/restassured/runners/GithubRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/GithubApi.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/github.feature" />
         <option value="$PROJECT_DIR$/src/main/java/model/user.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/com/qvision/restassured/definitions/GithubDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/services/GithubUrls.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/github.feature" />
         <option value="$PROJECT_DIR$/src/main/java/steps/GithubRestUserAPISteps.java" />
       </list>
     </option>
@@ -647,6 +671,7 @@
     <option name="width" value="1280" />
     <option name="height" value="712" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -761,6 +786,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -862,15 +888,17 @@
       <option name="presentableId" value="Default" />
       <updated>1531883492058</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add new scenario test">
+      <created>1531923935060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531923935060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GithubRunner - 2018.07.18 at 00h 27m 28s.xml">
-      <configuration name="GithubRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GithubRunner - 2018.07.18 at 00h 33m 24s.xml">
-      <configuration name="GithubRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GithubRunner - 2018.07.18 at 00h 37m 12s.xml">
       <configuration name="GithubRunner" configurationId="JUnit" />
     </history-entry>
@@ -895,6 +923,12 @@
     <history-entry file="GithubRunner - 2018.07.18 at 01h 14m 32s.xml">
       <configuration name="GithubRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GithubRunner - 2018.07.18 at 09h 23m 49s.xml">
+      <configuration name="GithubRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GithubRunner - 2018.07.18 at 09h 28m 44s.xml">
+      <configuration name="GithubRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="6" />
@@ -902,13 +936,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32913387" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4153605" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -928,11 +963,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32913387" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add new scenario test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new scenario test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/co/com/qvision/restassured/runners/GithubRunner.java">
@@ -965,7 +1003,10 @@
           <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -980,28 +1021,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/github.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/GithubApi.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/co/com/qvision/restassured/runners/GithubRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/GithubApi.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/co/com/qvision/restassured/definitions/GithubDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1012,13 +1036,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/steps/GithubRestUserAPISteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/github.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/com/qvision/restassured/definitions/GithubDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/steps/GithubRestUserAPISteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
           </folding>
         </state>
       </provider>

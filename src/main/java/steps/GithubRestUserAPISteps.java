@@ -14,13 +14,12 @@ public class GithubRestUserAPISteps {
 
   @Step("Given the github REST API for user profile")
   public void withUserProfileAPIEndpoint() {
-    given().auth().basic("SamSlaiderTest", "xxxx");
+     api = "https://api.github.com/users/{user}";
   }
 
   @Step("When looking for {0} via the api")
   public void getProfileOfUser(String user) {
-    //when().get(api, user);
-    when().get(USERS_URL);
+    when().get(api, user);
   }
 
   @Step("Then there should be a login field with value {0} of user {0}")
